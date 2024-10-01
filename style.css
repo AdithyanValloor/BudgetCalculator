@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tab-html{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr)) ;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 20px 0;
+}
+
+#tab-title{
+    display: none;
+    font-weight: 700;
+}
